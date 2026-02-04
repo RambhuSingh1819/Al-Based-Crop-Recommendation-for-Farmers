@@ -1,0 +1,9 @@
+# backend/requirements.txt
+
+numpy<2          # 👈 fix the NumPy 1.x vs 2.x compatibility issue
+
+fastapi
+uvicorn[standard]
+pillow
+torch
+transformers

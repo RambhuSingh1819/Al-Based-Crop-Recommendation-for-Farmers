@@ -1,0 +1,20 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+
+# Node
+frontend/node_modules/
+frontend/.env.local
+frontend/.env
+
+# Model files (optional: you can keep private or in separate storage)
+backend/models/*.pt
+backend/models/*.pth
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Logs / misc
+*.log

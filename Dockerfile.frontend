@@ -1,0 +1,28 @@
+# Dockerfile.frontend
+
+# ---------- Build stage ----------
+FROM node:20-alpine AS build
+
+WORKDIR /app
+
+# Copy only dependency files first for better caching
+COPY frontend/package.json frontend/package-lock.json ./
+
+# Use npm ci for clean, reproducible installs (if lockfile exists)
+RUN npm ci
+
+# Now copy the rest of the frontend source
+COPY frontend/ .
+
+# Build the React app
+RUN npm run build
+
+# ---------- Runtime stage ----------
+FROM nginx:alpine
+
+# Copy built React app into nginx web root
+COPY --from=build /app/build /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]

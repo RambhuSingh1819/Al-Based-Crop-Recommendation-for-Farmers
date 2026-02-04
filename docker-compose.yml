@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: farm-advisor-backend
+    ports:
+      - "8000:8000"
+    environment:
+      # Hugging Face model used by backend/utils.py
+      HF_MODEL_ID: "google/vit-base-patch16-224"
+      # Ensure logs are flushed immediately
+      PYTHONUNBUFFERED: "1"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: farm-advisor-frontend
+    ports:
+      - "3000:80"    # open http://localhost:3000 in browser
+    depends_on:
+      - backend
+    restart: unless-stopped
