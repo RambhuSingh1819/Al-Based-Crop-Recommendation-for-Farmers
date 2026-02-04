@@ -1,5 +1,6 @@
 {
   "name": "farm-advisor-frontend",
+  "homepage": "https://rambhusingh1819.github.io/Al-Based-Crop-Recommendation-for-Farmers",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
