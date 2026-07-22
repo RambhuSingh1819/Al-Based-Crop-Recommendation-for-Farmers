@@ -1,4 +1,4 @@
-# 🌾 Farm Advisor – AI-Based Crop & Field Analysis System
+#  Farm Advisor – AI-Based Crop & Field Analysis System
 
 ![Farm Advisor UI](./farm-advisor-ui.jpeg)
 
@@ -8,14 +8,14 @@ The system uses a **Hugging Face pre-trained model** for image analysis, with a 
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 Traditional farming decisions often rely on experience and guesswork, which may lead to crop loss and reduced productivity.  
 **Farm Advisor** leverages **Artificial Intelligence and Computer Vision** to help farmers make **data-driven decisions** using simple image uploads.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Analyze crop or field images using AI
 - Provide smart insights and recommendations
@@ -24,18 +24,18 @@ Traditional farming decisions often rely on experience and guesswork, which may 
 
 ---
 
-## 🚀 Features
+## Features
 
-* 📷 Upload crop or field images
-* 🧠 AI-powered image analysis
-* 🌱 Crop health & advisory insights
-* ⚡ Fast response using Hugging Face Inference API
-* 🎨 Clean and farmer-friendly UI
-* 🐳 Dockerized frontend & backend
+*  Upload crop or field images
+*  AI-powered image analysis
+*  Crop health & advisory insights
+*  Fast response using Hugging Face Inference API
+*  Clean and farmer-friendly UI
+*  Dockerized frontend & backend
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. User uploads a crop/field image from the UI  
 2. React frontend sends the image to FastAPI backend  
@@ -46,7 +46,7 @@ Traditional farming decisions often rely on experience and guesswork, which may 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 * React.js
@@ -64,7 +64,7 @@ Traditional farming decisions often rely on experience and guesswork, which may 
 
 ---
 
-## 🤖 Hugging Face Model Integration
+##  Hugging Face Model Integration
 
 The backend uses a **Hugging Face hosted pre-trained model** for image analysis.
 
@@ -110,7 +110,7 @@ The backend uses a **Hugging Face hosted pre-trained model** for image analysis.
 
 
 
-## ▶️ Run the Project Locally
+## Run the Project Locally
 
   ### docker --> compose up --> build 
   
@@ -127,7 +127,7 @@ The backend uses a **Hugging Face hosted pre-trained model** for image analysis.
     ---
     
 
-## 📈 Output
+## Output
 
   * AI-generated crop/field analysis
 
@@ -137,7 +137,7 @@ The backend uses a **Hugging Face hosted pre-trained model** for image analysis.
   
 
 
-## 🌟 Future Enhancements
+## Future Enhancements
 
   * Crop disease classification
 
@@ -152,16 +152,16 @@ The backend uses a **Hugging Face hosted pre-trained model** for image analysis.
 
 
 
-## 🤝 Contribution
+## Contribution
 
   Contributions are welcome!
   Fork this repository, create a new branch, and submit a pull request.
 
   
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
- * Hugging Face 🤗
+ * Hugging Face 
 
  * FastAPI Community
 
@@ -171,9 +171,9 @@ The backend uses a **Hugging Face hosted pre-trained model** for image analysis.
 
    
 
-## 👨‍💻 Author
+## Author
 
  ### Rambhu Singh
- *  💻 Full Stack Developer 
+ *  Full Stack Developer 
  *  AI & ML Enthusiast
- * 🌱 Passionate about building smart farming solutions
+ *  Passionate about building smart farming solutions
