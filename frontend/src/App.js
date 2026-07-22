@@ -79,7 +79,7 @@ function App() {
 
       <header className="header">
         <h1 className="title">
-          🌾 Farm <span>Advisor</span>
+           Farm <span>Advisor</span>
         </h1>
         <p className="subtitle">
           Upload a field or crop image to get instant insights, nutrition tips and
@@ -177,13 +177,13 @@ function App() {
 
                   {item.nutrition && (
                     <p className="result-nutrition">
-                      🧪 <strong>Nutrition:</strong> {item.nutrition}
+                       <strong>Nutrition:</strong> {item.nutrition}
                     </p>
                   )}
 
                   {item.advice && (
                     <p className="result-advice">
-                      🌱 <strong>Advice:</strong> {item.advice}
+                       <strong>Advice:</strong> {item.advice}
                     </p>
                   )}
                 </div>
@@ -203,7 +203,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <span>Built with FastAPI + React • Smart farming made simple 🌿</span>
+        <span>Built with FastAPI + React • Smart farming made simple </span>
       </footer>
     </div>
   );
