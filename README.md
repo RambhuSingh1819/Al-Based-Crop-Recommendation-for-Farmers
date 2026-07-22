@@ -86,7 +86,7 @@ The backend uses a **Hugging Face hosted pre-trained model** for image analysis.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
     Farm-Advisor/
     │
